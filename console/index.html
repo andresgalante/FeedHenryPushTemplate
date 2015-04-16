@@ -16,6 +16,11 @@
     
     <h1 class="brand">Brand Name</h1>
     
+    <div class="instructions">
+      <p>Select the categories you want to send a message to, enter some text and click 'Send Push Notification'.</p>
+      <p>You can add and remove categories to the list. Mobile app users will see this list of categories and can subscribe for Push Notifications against specific categories.</p>
+    </div><!-- /instructions -->
+    
     <div class="container">
       <form action="#">
         <div class="category-list">
@@ -27,6 +32,13 @@
           </div>
           
           <p class="loader"><i class="fa fa-circle-o-notch fa-spin"></i> Loading ...</p>
+
+          <div class="category all">
+            <input type="checkbox" id="soccer"/>
+            <label for="soccer">
+              Select All 
+            </label>
+          </div>
 
           <div class="category">
             <input type="checkbox" id="soccer"/>
