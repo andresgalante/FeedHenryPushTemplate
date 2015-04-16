@@ -18,6 +18,10 @@ strong,h1,h2, h3,h4.h5.h6{
   padding: 0;
 }
 
+h3{
+  font-size: 15px;
+}
+
 .brand{
   font-weight: 300;
   text-align: center;
@@ -27,7 +31,7 @@ strong,h1,h2, h3,h4.h5.h6{
 .container{
   background: #f9f9f9;
   box-shadow: 0 5px 50px rgba(0,0,0,.1);
-  width: 580px;
+  width: 600px;
   margin: 20px auto;
   overflow: auto;
   zoom: 1;
@@ -37,13 +41,15 @@ strong,h1,h2, h3,h4.h5.h6{
 
 .category-list{
   float: left;
-  width: 260px;
+  width: 200px;
+  border-right: 1px solid rgba(0,0,0,.05);
 }
 
 
 .category label{
   position: relative;
   padding-left: 35px;
+  margin-right: 20px;
 }
 
 .category label:before{
@@ -103,7 +109,7 @@ input[type=checkbox]:checked + label:after {
 
 .message{
   float: right;
-  width: 300px;
+  width: 380px;
 }
 
 .message label{
@@ -113,7 +119,7 @@ input[type=checkbox]:checked + label:after {
 
 textarea{
   display: block;
-  width: 278px;
+  width: 358px;
   border: 1px solid #ccc;
   border-radius: 2px;
   font-weight: 300;
