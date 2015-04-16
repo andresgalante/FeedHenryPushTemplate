@@ -1,15 +1,16 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:300,400,700);
 
 html{
-    background: #ccc;
+  background: #ccc;
 }
+
 body{
   background: #ccc;
-  margin: 0;
-  padding: 0;
   font-family: 'Open Sans', sans-serif;
   font-size: 13px;
   font-weight: 400;
+  margin: 0;
+  padding: 0;
 }
 
 strong,h1,h2, h3,h4.h5.h6{
@@ -24,73 +25,71 @@ h3{
 
 .brand{
   font-weight: 300;
-  text-align: center;
   margin: 60px 0 40px 0;
+  text-align: center;
 }
 
 .container{
   background: #f9f9f9;
+  border-radius: 5px;
   box-shadow: 0 5px 50px rgba(0,0,0,.1);
-  width: 600px;
   margin: 20px auto;
   overflow: auto;
-  zoom: 1;
   padding: 20px;
-  border-radius: 5px;
+  width: 600px;
+  zoom: 1;
 }
 
 .category-list{
+  border-right: 1px solid rgba(0,0,0,.05);
   float: left;
   width: 200px;
-  border-right: 1px solid rgba(0,0,0,.05);
 }
 
-
 .category label{
-  position: relative;
-  padding-left: 35px;
   margin-right: 20px;
+  padding-left: 35px;
+  position: relative;
 }
 
 .category label:before{
-  content: ".";
-  text-indent: -99999px;
-  position: absolute;
-  left: 2px;
-  top: 2px;
-  height: 20px;
-  width: 20px;
-  border-radius: 13px;
   border: 3px solid #ccc;
+  border-radius: 13px;
+  content: ".";
+  height: 20px;
+  left: 2px;
+  position: absolute;
+  text-indent: -99999px;
+  top: 2px;
+  width: 20px;
 }
 
 .category label:after{
-  content: ".";
-  text-indent: -99999px;
-  position: absolute;
-  left: 6px;
-  top: 6px;
-  height: 16px;
-  width: 16px;
   border-radius: 9px;
+  content: ".";
+  height: 16px;
+  left: 6px;
+  position: absolute;
+  text-indent: -99999px;
+  top: 6px;
+  width: 16px;
 }
-
 
 input[type=checkbox] {
 	display: none;
 }
 
 input[type=checkbox] + label {
- display: block;
- margin-bottom: 2px;
- line-height: 30px;
  border-radius: 15px;
  cursor: pointer;
+ display: block;
+ line-height: 30px;
+ margin-bottom: 2px;
 }
+
 input[type=checkbox] + label:hover {
   background: rgba(0,0,0,.1);
 }
-
 
 input[type=checkbox]:checked + label:before {
   border-color: #ddd;
@@ -99,12 +98,12 @@ input[type=checkbox]:checked + label:before {
 }
 
 input[type=checkbox]:checked + label:after {
-  background: -webkit-linear-gradient(#7dde00, #7dde00); /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(#7dde00, #7dde00); /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(#7dde00, #7dde00); /* For Firefox 3.6 to 15 */
-  background: linear-gradient(#7dde00, #61ac00); /* Standard syntax */
-  box-shadow: 0 1px 3px rgba(0,0,0,.5);
+  background: -webkit-linear-gradient(#7dde00, #7dde00); 
+  background: -o-linear-gradient(#7dde00, #7dde00);
+  background: -moz-linear-gradient(#7dde00, #7dde00);
+  background: linear-gradient(#7dde00, #61ac00);
   border: 1px solid #61ac00;
+  box-shadow: 0 1px 3px rgba(0,0,0,.5);
 }
 
 .message{
@@ -118,13 +117,13 @@ input[type=checkbox]:checked + label:after {
 }
 
 textarea{
-  display: block;
-  width: 358px;
   border: 1px solid #ccc;
   border-radius: 2px;
-  font-weight: 300;
+  display: block;
   font-style: 13px;
+  font-weight: 300;
   padding: 10px;
+  width: 358px;
 }
 
 .submit-btn{
@@ -133,35 +132,35 @@ textarea{
 }
 
 input[type=submit]{
-  border: none;
-  padding: 0 20px;
-  line-height: 30px;
-  background: -webkit-linear-gradient(#7dde00, #7dde00); /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(#7dde00, #7dde00); /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(#7dde00, #7dde00); /* For Firefox 3.6 to 15 */
-  background: linear-gradient(#7dde00, #61ac00); /* Standard syntax */
+  background: -webkit-linear-gradient(#7dde00, #7dde00); 
+  background: -o-linear-gradient(#7dde00, #7dde00); 
+  background: -moz-linear-gradient(#7dde00, #7dde00); 
+  background: linear-gradient(#7dde00, #61ac00);
   box-shadow: 0 1px 3px rgba(0,0,0,.2);
-  color: #fff;
-  text-shadow: 0 -1px 0 rgba(0,0,0,.3);
+  border: none;
   border-radius: 4px;
+  color: #fff;
+  cursor: pointer;
+  line-height: 30px;
+  text-shadow: 0 -1px 0 rgba(0,0,0,.3);
   font-weight: 700;
   font-size: 13px;
-  cursor: pointer;
+  padding: 0 20px;
 }
 
 input[type=submit]:hover{
-  background: -webkit-linear-gradient(#7dde00, #7dde00); /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(#7dde00, #7dde00); /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(#7dde00, #7dde00); /* For Firefox 3.6 to 15 */
-  background: linear-gradient(#61ac00,#7dde00); /* Standard syntax */
+  background: -webkit-linear-gradient(#7dde00, #7dde00); 
+  background: -o-linear-gradient(#7dde00, #7dde00); 
+  background: -moz-linear-gradient(#7dde00, #7dde00); 
+  background: linear-gradient(#61ac00,#7dde00); 
   text-shadow: 0 1px 0 rgba(0,0,0,.3);
 }
 
 input[type=submit]:disabled{
   background: #bbb;
   box-shadow: none;
-  text-shadow: none;
   cursor: not-allowed;
+  text-shadow: none;
 }
 
 input[type=submit]:active{
