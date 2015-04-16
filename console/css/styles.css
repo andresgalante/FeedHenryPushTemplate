@@ -25,7 +25,7 @@ h3{
 .brand{
   font-weight: 300;
   text-align: center;
-  margin: 40px 0;
+  margin: 60px 0 40px 0;
 }
 
 .container{
@@ -104,7 +104,7 @@ input[type=checkbox]:checked + label:after {
   background: -moz-linear-gradient(#7dde00, #7dde00); /* For Firefox 3.6 to 15 */
   background: linear-gradient(#7dde00, #61ac00); /* Standard syntax */
   box-shadow: 0 1px 3px rgba(0,0,0,.5);
-  border: 1px solid #7dde00;
+  border: 1px solid #61ac00;
 }
 
 .message{
