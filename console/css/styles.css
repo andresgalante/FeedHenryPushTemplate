@@ -90,9 +90,7 @@ h3{
   width: 20px;
 }
 
-.category label:after{
-
-  
+.category label:after{  
 /*  border-radius: 9px;
   content: ".";
   height: 16px;
