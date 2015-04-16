@@ -9,7 +9,7 @@ body{
   font-size: 13px;
   font-weight: 400;
   margin: 0;
-  padding: 0;
+  padding: 114px 0 0 0;
   color: rgba(0,0,0,.8);
 }
 
@@ -28,6 +28,10 @@ h3{
   background: #607D8B;
   padding: 0 16px;
   color: #fff;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
 }
 
 .brand{
@@ -40,6 +44,10 @@ h3{
 
 nav{
   background: #455A64;
+  position: fixed;
+  top: 56px;
+  left: 0;
+  right: 0;
 }
 
 nav ul{
